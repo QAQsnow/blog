@@ -1,8 +1,13 @@
 {
 	"header":{
 		"logo":"",
+		"selfIntro":"一个小小的小学生",
 		"sign":"我有一个梦想，面朝大海，春暖花开。",
 		"navlist":["首页","学习","旅行","留言板"]
+	},
+	"bloggerInfo":{
+		"name":"刀郎",
+		"microblog":"新浪"
 	}
 	
 }

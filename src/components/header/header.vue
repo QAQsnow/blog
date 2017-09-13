@@ -3,6 +3,7 @@
 		<div class="header-top clearfix">
 			<div class="header-logo f-l">
 				<img src="../../assets/images/logo.jpg" width="50">
+				<span>{{header.selfIntro}}</span>
 			</div>
 			<div class="header-sign f-r">
 				{{header.sign}}
@@ -36,11 +37,16 @@
 
 <style lang="stylus" scope>
 	.header
+		background-color:#fff;
 		.header-top
 			padding 10px 10px 0
 			.header-logo
-				border-radius 50%
 				overflow hidden
+				img
+					border-radius 50%
+				span
+					margin-left 10px
+					color #14e9c9	
 			.header-sign
 				line-height 50px	
 		.header-nav
